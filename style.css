@@ -143,7 +143,7 @@ header {
     .taskEntries input {
         font-size: .8rem;
         padding-left: .5rem;
-        width: 57%;
+        width: 55%;
         height: 2.5rem;
     }
     .submit,
