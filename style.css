@@ -1,0 +1,168 @@
+body {
+    margin: 0%;
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+header {
+    padding: 0%;
+    margin: 0%;
+}
+
+.banner {
+    height: 30vh;
+    padding: 4rem 14rem 0;
+    color: #fff;
+    margin: 0px;
+    background: linear-gradient(to bottom right, #5761b2, #1fc5a8);
+}
+
+.entryContainer {
+    width: 100%;
+    background-color: white;
+    height: 4.5rem;
+    border-radius: .5rem;
+    padding-top: .7rem;
+}
+
+#taskEntry {
+    background-color: whitesmoke;
+    border-radius: 1rem;
+    border: 1px solid rgb(151, 149, 149) !important;
+}
+
+#newEnriesContainer {
+    background-color: white;
+    border-radius: .5rem;
+    padding: 0rem;
+    margin-top: -4.5rem;
+    margin-bottom: 3rem;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px 0px;
+}
+
+.newEntry {
+    border-bottom: 4px solid rgb(228, 225, 225);
+    height: 4rem;
+}
+
+.newEntry:last-child {
+    border-bottom: none;
+}
+
+.taskEntries {
+    display: flex;
+}
+
+#taskEntry,
+.taskEntries input {
+    height: 3rem;
+    width: 75%;
+    margin-top: .4rem;
+    padding-left: 2rem;
+    border: none;
+    outline: none;
+    font-size: 1.125rem;
+    margin-right: .5rem;
+    margin-left: 1rem;
+    color: rgb(63, 61, 61);
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+.taskEntries input {
+    background-color: white;
+}
+
+.taskEntries input:active {
+    border: 1px solid rgb(151, 149, 149) !important;
+    background-color: rgba(245, 245, 245, 0.466);
+    border-radius: 1rem;
+}
+
+.submit,
+.actions button {
+    height: 3rem;
+    margin: .4rem;
+    padding-left: .7rem;
+    padding-right: .7rem;
+    border-radius: .5rem;
+    border: 1px solid whitesmoke;
+    color: white;
+    letter-spacing: 1.5px;
+    background: linear-gradient(to top left, #5761b2, #1fc5a8);
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+#edit {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.taskList {
+    padding: 2rem 14rem 0;
+    background-color: whitesmoke;
+    height: 69vh;
+}
+
+.border {
+    border: 1px solid rgb(151, 149, 149) !important;
+    border-radius: 1rem;
+}
+
+@media screen and (max-width: 767px) {
+    body {
+        background-color: whitesmoke;
+    }
+    header {
+        width: 100vw;
+        overflow: hidden
+    }
+    .banner {
+        padding: 2rem 1rem;
+        height: 30vh;
+        width: 92vw;
+    }
+    .entryContainer {
+        width: 99%;
+        background-color: white;
+        height: 4.5rem;
+        border-radius: .5rem;
+        padding-top: .4rem;
+    }
+    .taskEntries {
+        margin-top: .4rem;
+    }
+    .taskList {
+        max-width: 100vw;
+        padding: 1rem;
+        height: auto;
+        background-color: transparent;
+    }
+    #taskEntry {
+        border-radius: .5rem;
+    }
+    #taskEntry,
+    .taskEntries input {
+        font-size: .8rem;
+        padding-left: .5rem;
+        width: 57%;
+        height: 2.5rem;
+    }
+    .submit,
+    .actions button {
+        font-size: .8rem !important;
+        letter-spacing: 1px;
+        height: 2.5rem;
+        margin-right: 0px;
+        margin-left: 0px;
+    }
+    .actions button {
+        padding-left: .3rem;
+        padding-right: .3rem;
+    }
+    #edit {
+        padding-left: .5rem;
+        padding-right: .5rem;
+    }
+    .border {
+        border-radius: .5rem;
+    }
+}
